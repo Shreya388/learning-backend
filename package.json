@@ -1,18 +1,18 @@
 {
-  "name": "node-backend",
+  "name": "learning-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon index.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.3",
-    "mongodb": "^6.3.0",
-    "mongoose": "^8.2.0",
-    "nodemailer": "^6.9.10"
+    "mongoose": "^8.2.1",
+    "nanoid": "^5.0.6",
+    "nodemon": "^3.1.0",
+    "shortid": "^2.2.16"
   }
 }
